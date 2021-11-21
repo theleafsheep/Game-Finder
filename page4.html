@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>What time of day do you prefer?</title>
+
+	<meta charset="UTF-8" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="src/style.css">
+	<script src="src/index.js"></script>
+	
+</head>
+
+<body onload="questionFourLoad()">
+	<div id="card-container">
+		<div class="question">
+			<h1>What time of day do you prefer?</h1>
+			<div class="card__form">
+				<button class="response_mor" onclick="questionFourSubmit('short')">MORNING</a></button>
+				<button class="response_eve" onclick="questionFourSubmit('medium')">EVENING</a></button>
+				<button class="response_mid" onclick="questionFourSubmit('long')">MIDNIGHT</a></button>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
